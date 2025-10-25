@@ -35,7 +35,7 @@ while True:
         op2 = int(input())
 
         if op2 == 1:
-            nome = input("Nome do paciente: ").lower()
+            nome = input("Nome do Paciente: ").lower()
             pacs = pac.Paciente()
             pacs.buscarPacientes(nome)
 

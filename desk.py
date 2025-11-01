@@ -15,7 +15,7 @@ while True:
         if op3 == 1:
             pacs = pac.Paciente()
             pacs.nome = input("Nome do paciente: ").lower().strip()
-            pacs.idade = int(input("Idade do paciente: "))
+            pacs.idaex03.pyde = int(input("Idade do paciente: "))
             pacs.acom = input("Nome do acompanhante: ").lower().strip()
             pacs.crm = int(input("Numero do CRM do medico: "))
             pacs.quarto = input("Numero da sala: ").lower().strip()

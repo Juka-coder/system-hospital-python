@@ -33,7 +33,7 @@ while True:
         print("3. LISTA DE MEDICOS")
 
         op2 = int(input())
-
+        
         if op2 == 1:
             nome = input("Nome do Paciente: ").lower()
             print("ola")
